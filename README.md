@@ -46,6 +46,8 @@ Always finish the project to export libraries to requirements_conda.txt and requ
 conda list -e > requirements_conda.txt
 pip freeze > requirements_pip.txt
 
+
+
 pip install -r requirements.txt
 ## Introduction
 This project is a Python console application designed to demonstrate effective project structuring, incorporating several fundamental software development practices. The core functionalities include interacting with users, testing user inputs, logging processes and errors, and user management (creation and validation).
